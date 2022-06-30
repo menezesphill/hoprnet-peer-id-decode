@@ -1,0 +1,24 @@
+{
+  "name": "hoprnet-peer-id-decode",
+  "version": "1.0.0",
+  "description": "Module to decode HOPR address and get it's node equivalent address on the blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/menezesphill/hoprnet-peer-id-decode.git"
+  },
+  "author": "menezesphill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/menezesphill/hoprnet-peer-id-decode/issues"
+  },
+  "homepage": "https://github.com/menezesphill/hoprnet-peer-id-decode#readme",
+  "dependencies": {
+    "ethers": "^5.6.9",
+    "libp2p-crypto": "^0.21.2",
+    "peer-id": "^0.16.0"
+  }
+}
